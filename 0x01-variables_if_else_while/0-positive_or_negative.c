@@ -2,6 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
+/* more headers goes there */
+
 /**
  * main -entry point
  *
@@ -10,6 +12,9 @@
  * Return: Always 0 (Success)
 
  */
+
+/* betty style doc for fucntion main goes there */
+
 int main(void)
 {
   
@@ -26,5 +31,5 @@ int main(void)
          else 
                 printf("%d is negative \n", n);
 
-         return 0;
+         return (0);
 }
