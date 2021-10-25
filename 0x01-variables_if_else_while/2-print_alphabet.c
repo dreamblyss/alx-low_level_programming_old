@@ -17,7 +17,7 @@ int main(void)
 {
 
         char lowcase;
-      
+        char newline = 0xA;
 
 	for(lowcase = 'a'; lowcase <= 'z'; lowcase++)
 	{
@@ -25,6 +25,8 @@ int main(void)
       
 	}
 
+	putchar(newline);
+	
         return(0);
 
 }
