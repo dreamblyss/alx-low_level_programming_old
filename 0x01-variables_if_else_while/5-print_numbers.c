@@ -20,9 +20,10 @@ int main(void)
 	for(ct = 0; ct < 10; ct++)
 	{
 	  printf("%d", ct);
-	  printf("\n");
+	 
         }
 
+	printf("\n");
 	return(0);	
 
 }
