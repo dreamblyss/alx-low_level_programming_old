@@ -20,12 +20,12 @@ int main(void)
 
  
   int num;
-  char charVal;
+  //  char charVal;
  
-  for(num = 0; num < 10; ++num)
+  for(num = '0'; num < '9'; ++num)
   {
-    charVal = num + '0';
-    putchar(charVal);
+    //charVal = num + '0';
+    putchar(num);
   }
 
   putchar(0xA);
