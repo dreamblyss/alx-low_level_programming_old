@@ -1,15 +1,27 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+
+/**
+
+ * main - Entry point
+
+ *
+
+ * Return: Always 0 (Success)
+
+ */
+
+
 int main(void)
 {
 
-  int k;
+  char lowcase;
 
-  for(k = 'z'; k >= 'a'; --k)
+  for(lowcase = 'z'; lowcase >= 'a'; --lowcase)
   {
 
-    putchar(k);
+    putchar(lowcase);
 
   }  
 
