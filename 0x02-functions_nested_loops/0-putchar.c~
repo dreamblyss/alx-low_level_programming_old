@@ -1,0 +1,27 @@
+#include "holberton.h"
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+
+  char *lt = "Holberton";
+
+  while (*lt)
+  {
+
+    _putchar(*lt);
+    lt++;
+    
+  }
+
+  _putchar('\n');
+
+
+  return (0);
+  
+}  
