@@ -2,7 +2,7 @@
 
 /**
  
- * main -Entry point
+ * print_alphabet - a function that prints the alphabet, in lowercase
  
  *
  
@@ -11,10 +11,18 @@
  */
 
 
-int main(void)
+void print_alphabet(void)
 {
 
-  print_alphabet();
+  int h;
 
-  return(0);
+  for(h = 'a'; h <= 'z'; h++)
+  {
+    
+    _putchar(h);
+
+  }  
+
+  _putchar(0xA);
+   
 }
