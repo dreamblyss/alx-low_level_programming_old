@@ -17,5 +17,5 @@ for (lowcase = 'a'; lowcase <= 'z'; lowcase++)
 putchar(lowcase);
 }
 putchar(newline);
-return(0);
+return (0);
 }
