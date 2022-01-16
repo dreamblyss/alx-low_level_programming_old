@@ -20,6 +20,4 @@ putchar(' ');
 }
 putchar(0xA);
 return (0);
-}  
-
-
+}
