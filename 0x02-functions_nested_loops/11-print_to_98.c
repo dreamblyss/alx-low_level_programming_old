@@ -10,7 +10,7 @@
  */
 void print_to_98(int num)
 {
-int x, y;  
+int x, y; 
 if (num <= 98)
 {
 for (x = num; x <= 98; x++)
@@ -25,7 +25,6 @@ printf("%d\n", x);
 }
 }
 }
- 
 else if (num > 98)
 {
 for (y = num; y >= 98; y--)
@@ -37,10 +36,7 @@ printf("%d, ", y);
 else if (y == 98)
 {
 printf("%d\n", y);
+} 
 }
- 
 }
- 
-}
-
 }
