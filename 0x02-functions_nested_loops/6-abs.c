@@ -12,7 +12,7 @@ if (ab > 0)
 result = (ab - 0);
 return (result);
 }
-else if(ab < 0)
+else if (ab < 0)
 {
 result = (0 - ab);
 return (result);
