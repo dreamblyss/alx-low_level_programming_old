@@ -8,7 +8,7 @@
 void times_table(void)
 {
 int num, exp, x;
-for(num = 0; num <= 9; num++)
+for (num = 0; num <= 9; num++)
 {
 _putchar('0');
 _putchar(',');
@@ -25,15 +25,12 @@ else
 _putchar(' ');
 }
 _putchar((x % 10) + '0');
-if(exp < 9)
+if (exp < 9)
 {
 _putchar(',');
 _putchar(' ');
 }
-}	
+}
 _putchar('\n');
 }
 }
-
-
-  
