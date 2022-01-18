@@ -12,5 +12,4 @@ for (h = 'a'; h <= 'z'; h++)
 _putchar(h);
 }
 _putchar(0xA);
-return (0);
 }
