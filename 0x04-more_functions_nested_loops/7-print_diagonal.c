@@ -6,20 +6,26 @@
  */
 void print_diagonal(int n)
 {
-int dg, dgl;
 if (n <= 0)
 {
 _putchar(0x0A);
 }
 else
 {
-for (dg = 1; dg <= n; dg++)
+int i , j;
+for (i = 0 ; i < n; i++)
 {
-for(dgl = 1; dgl <= dg; dgl++)
+for(j = 0; j < n; j++)
+{
+if(j == i)
+{
+_putchar('\\');
+}
+else if (j < i)
 {
 _putchar(' ');
 }
-_putchar('\\');
+}
 _putchar(0x0A);
 }
 }
