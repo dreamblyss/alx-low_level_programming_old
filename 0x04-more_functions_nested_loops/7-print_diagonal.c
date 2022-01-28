@@ -16,12 +16,12 @@ else
 {
 for (k = 1; k <= n; k++)
 {
-for(l = 1; l < k; l++)
+for (l = 1; l < k; l++)
 {
 _putchar(' ');
 }
 _putchar('\\');
 _putchar('\n');
 }  
-}  
+}
 }
