@@ -1,0 +1,15 @@
+#include "main.h"
+/**
+ * print_line - draws a straight line in the terminal
+ * @numline: number of times the character should be printed
+ */
+void print_line(int numline)
+{
+  while(numline > 0)
+  {
+    _putchar('_' + '0');
+    numline++;
+  }
+
+  _putchar(0x0A);
+}
